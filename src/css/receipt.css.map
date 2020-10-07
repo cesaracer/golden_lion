@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,IAAI;CACnB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,QAAQ,CAAA;IACJ,KAAK,EAAE,GAAG;IACV,WAAW,EAAE,EAAE;GAClB",
+    "sources": [
+        "receipt.scss"
+    ],
+    "names": [],
+    "file": "receipt.css"
+}

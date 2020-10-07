@@ -1,0 +1,73 @@
+form {
+  float: left;
+  margin-top: 40px;
+  margin-left: 30%;
+  width: 40%;
+}
+
+label {
+  display: block;
+}
+
+.input, .input-1, .input-2, .input-3 {
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 25px;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: #ffe9e9;
+}
+
+.input-1 input {
+  width: 70%;
+}
+
+.input-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  float: left;
+}
+
+.input-2 input {
+  width: 45%;
+  float: left;
+}
+
+.input-3 {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .input-1 input {
+    width: 100%;
+  }
+  .input-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .input-2 input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=form.css.map */

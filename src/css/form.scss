@@ -1,0 +1,67 @@
+form{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30%;
+    width: 40%;
+}
+label{
+    display: block;
+}
+
+.input{
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: rgb(255, 233, 233);
+}
+
+.input-1{
+    @extend .input;
+    input{
+        width: 70%;
+    }
+}
+
+.input-2{
+    @extend .input;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    input{
+        width: 45%;
+        float: left;
+    }
+}
+
+.input-3{
+    @extend .input;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and(max-width: 768px){
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .input-1
+    {
+        input{
+            width: 100%;
+        }
+    }
+    .input-2{
+        flex-direction: column;
+        input{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+    }
+}

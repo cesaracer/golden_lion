@@ -1,0 +1,43 @@
+.menu {
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.menu-item {
+  width: 100%;
+  float: left;
+  padding-bottom: 2px;
+  margin-bottom: 8px;
+  border-bottom: solid 1px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-item .menu-item-name {
+  float: left;
+  width: 60%;
+}
+
+.menu-item .menu-item-price {
+  width: 20%;
+  float: left;
+}
+
+.summary {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

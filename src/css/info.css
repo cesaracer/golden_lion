@@ -1,0 +1,112 @@
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 400px;
+}
+
+.info h3 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.info hr {
+  width: 40%;
+}
+
+.info-title {
+  font-family: 'Shojumaru', cursive;
+  color: #a00000;
+}
+
+.info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  font-family: 'Shojumaru', cursive;
+}
+
+.info-text div {
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #a58c00;
+}
+
+.info-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.info-img, .info-img-1, .info-img-2, .info-img-3 {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-position: center;
+}
+
+.info-img-1 {
+  background-image: url("../images/bowl.jpg");
+}
+
+.info-img-2 {
+  background-image: url("../images/rolls.jpg");
+}
+
+.info-img-3 {
+  background-image: url("../images/wok.jpg");
+}
+
+table {
+  width: 40%;
+  margin-bottom: 10px;
+  background-color: #ebebeb;
+  border: solid 2px;
+}
+
+table td {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .info h3 {
+    font-size: 18px;
+  }
+  .info-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info-map img {
+    width: 250px;
+    height: 250px;
+  }
+  table {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=info.css.map */

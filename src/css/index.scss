@@ -1,0 +1,101 @@
+@import './navbar', './slider', './info', './collage', './form', './menu', './cart', './receipt';
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Antic', sans-serif;
+}
+
+.alert{
+    float: left;
+    width: 100%;
+    
+    .alert-body{
+        float: left;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.notification{
+    float: left;
+    width: 80px;
+    height: 80px;
+    animation: fade .5s;
+    z-index: 5;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+
+}
+
+.title{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 6px;
+    float: left;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer{
+    float: left;
+    margin-top: 420px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(160, 0, 0);
+    box-shadow: 0px -2px 5px 2px slategray;
+    color: white;
+    h2{
+        color: gold;
+        font-family: 'Shojumaru', cursive;
+    }
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+.footer-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    ul{
+        list-style: none;
+        padding: 0px;
+    }
+    li a{
+        font-family: 'Shojumaru', cursive;
+        color: white;
+    }
+}
+
+@media screen and(max-width: 768px){
+    .notification{
+        width: 50px;
+        height: 50px;
+    }
+}

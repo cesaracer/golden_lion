@@ -1,0 +1,36 @@
+.menu {
+  width: 50%;
+  margin-left: 30%;
+}
+
+.menuItem {
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-name {
+  float: left;
+  width: 30%;
+}
+
+.item-price {
+  width: 30%;
+  float: left;
+}
+
+.item-btn {
+  width: 30%;
+  float: left;
+}
+
+.summary {
+  width: 100%;
+  float: left;
+}
+/*# sourceMappingURL=product.css.map */

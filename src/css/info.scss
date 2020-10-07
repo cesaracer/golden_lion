@@ -1,0 +1,89 @@
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 400px;
+    h3{
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    hr{
+        width: 40%;
+    }
+}
+.info-title{
+    font-family: 'Shojumaru', cursive;
+    color: rgb(160, 0, 0);
+}
+.info-text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Shojumaru', cursive;
+    div{
+        margin-right: 50px;
+        margin-left: 50px;
+        color: rgb(165, 140, 0);
+    }
+}
+
+.info-images{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-position: center;
+}
+
+.info-img-1{
+    @extend .info-img;
+    background-image: url("../images/bowl.jpg");
+}
+
+.info-img-2{
+    @extend .info-img;
+    background-image: url("../images/rolls.jpg");
+}
+
+.info-img-3{
+    @extend .info-img;
+    background-image: url("../images/wok.jpg");
+}
+
+table{
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: rgb(235, 235, 235);
+    border: solid 2px;
+    td{
+        text-align: center;
+    }
+}
+
+@media screen and(max-width: 768px){
+    .info{
+        h3{
+            font-size: 18px;
+        }
+    }
+    .info-images{
+        flex-direction: column;
+    }
+    .info-text{
+        flex-direction: column;
+    }
+    .info-map{
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+    table{
+        width: 80%;
+    }
+}

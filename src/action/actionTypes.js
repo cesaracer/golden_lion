@@ -1,0 +1,5 @@
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART'
+export const INC_TOTAL = 'INC_TOTAL'
+export const DEC_TOTAL = 'DEC_TOTAL'
+export const CLICK = 'CLICK'

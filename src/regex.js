@@ -1,0 +1,5 @@
+export const email_regex = new RegExp('^.+(@){1}.+(.){1}')
+export const phone_regex = new RegExp('^(\()*[0-9]{3}(\))*(-)*[0-9]{3}(-)*[0-9]{4}$')
+export const card_regex = new RegExp('^[0-9]{4}(\s)*[0-9]{4}(\s)*[0-9]{4}(\s)*[0-9]{4}$')
+export const cvc_regex = new RegExp('^[0-9]{3}$')
+export const exp_regex = new RegExp('^[0-9]{2}(\/)*[0-9]{2}$')
